@@ -13,10 +13,11 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: J2Fish
-zhihu_username: J2Fish
+#weibo_username: J2Fish
+#zhihu_username: J2Fish
+bili_uid: 647153447
 github_username: J2Fish
-twitter_username: J2Fish
+#twitter_username: J2Fish
 #facebook_username:  J2Fish
 #linkedin_username:  firstname-lastname-idxxxx
 
