@@ -48,7 +48,7 @@
 .sidebar-container .short-about .list-inline > li {
   padding-left: 0px;
 }
-.sidebar-container .short-about .list-inline > img{
+.sidebar-container .short-about .list-inline img{
   width: 1.7em;
   height: 1.6em;
   margin-right: 0.2em;
@@ -1347,7 +1347,7 @@ footer .list-inline {
   padding: 0;
 }
 
-footer .list-inline > img {
+footer .list-inline img {
   width: 2.3em;
   height: 2.3em;
 }
