@@ -52,6 +52,7 @@
   width: 1.7em;
   height: 1.6em;
   margin-right: 0.2em;
+  filter: grayscale(100%);
 }
 .catalog-container {
   padding: 0px;
