@@ -53,6 +53,7 @@
 .sidebar-container .short-about .list-inline img {
   width: 1.7em;
   height: 1.7em;
+  margin-top: 0.15em;
   margin-right: 0.3em;
   filter: grayscale(100%);
 }
@@ -1352,8 +1353,8 @@ footer .list-inline {
   padding: 0;
 }
 footer .list-inline img {
-  width: 2.3em;
-  height: 2.3em;
+  width: 1.7em;
+  height: 1.7em;
 }
 footer .copyright {
   font-size: 14px;
