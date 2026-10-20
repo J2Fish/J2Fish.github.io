@@ -1,0 +1,49 @@
+---
+layout:     post
+title:      "dfs learning"
+subtitle:   " \"stack simulation\""
+date:       2026-10-21 01:57
+author:     "J2Fish"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - algorithm
+---
+# dfs-stack-stimulation-learning
+
+stackstimulation need 3 more things:
+
+1. it - to record which line each point at **!** need initialization
+2. visited - to record which nodes had been visited
+3. stack - to record backward order
+   the first two are to solve the problem that we will visit the same point/line. When we use implicit stack ,traversal will help us avoid visiting the same line but point also need our rule
+
+here are dfs_front codes:
+
+```C++
+void dfs_front(int root){
+    static int visited[10000] = {0};  // to record visited point,in tree which can be replaced by fa[]
+    static int it[10000]; // to record line process
+    for (int i = 0;i < 10000;i++) it[i] = h[i]; // note this line, we should initialize it[] with every node's first line
+    stack<int> self_stack;
+    int self = root;
+    self_stack.push(self);
+    visited[self] = 1;
+    while (!self_stack.empty()){
+        self = self_stack.top();          
+        int line = it[self];
+        if (line == -1) {
+            self_stack.pop();
+            continue; 
+        }
+        it[self] = nxt[line];
+        int son = to[line];
+        if (visited[son]) continue;
+        self_stack.push(son);
+        cout << self <<'\n';// output when pushing
+        visited[son] = 1;
+    }
+```
+
+tomorrow I will review the chain forward star !!!
+*It is so hard but I will study hard.*

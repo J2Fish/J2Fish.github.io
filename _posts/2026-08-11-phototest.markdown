@@ -9,8 +9,6 @@ catalog: true
 tags:
     - test
 ---
-# Knowing Starts With Practice
-
 # Photo Test
 
 ![1786378101164](image/2026-08-11-phototest/1786378101164.png)
