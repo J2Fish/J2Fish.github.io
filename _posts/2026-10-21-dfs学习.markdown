@@ -45,6 +45,6 @@ void dfs_front(int root){
         visited[son] = 1;
     }
 ```
-
+#0400ff
 tomorrow I will review the chain forward star !!!
 *It is so hard but I will study hard.*
